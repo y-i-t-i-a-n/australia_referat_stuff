@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+        <link href="https://fonts.googleapis.com/css?family=Baloo Thambi 2" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Exo 2" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="map"></div>
+        <div class="whole-scr-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="pop-title baloo-f"><span id="popup-header"></span>Sydney Opera House
+                        <span class="fa fa-times closebtn"></span>
+                    </h5>
+                </div>
+                <div class="pop-content">
+                    <div class="pop-select-btns" role="group" style="flex-wrap: wrap">
+                        <button class="pop-btn baloo-f transition" id="btn-pt1" onclick="focusOne()">
+                            <span class="fa fa-info-circle"></span>
+                            Info
+                        </button>
+                        <button class="pop-btn baloo-f transition" id="btn-pt2" onclick="focusTwo()">
+                            <i class="fa fa-images"></i>
+                            Gallery
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-main">
+                    <div id="page-1"></div>
+                    <div id="page-2">
+                        <div id="gallery-img-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
