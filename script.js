@@ -55,6 +55,7 @@ function focusTwo() {
 	$("#page-2").show()
 }
 function sydneyOperaHouse() {
+	$("#popup-header").text("Sydney Opera House")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -93,6 +94,7 @@ function sydneyOperaHouse() {
 	$(".whole-scr-modal").show()
 }
 function greatBarrierReef() {
+	$("#popup-header").text("Great Barrier Reef")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -130,6 +132,7 @@ function greatBarrierReef() {
 	$(".whole-scr-modal").show()
 }
 function uluru() {
+	$("#popup-header").text("Uluru")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -155,6 +158,7 @@ function uluru() {
 	$(".whole-scr-modal").show()
 }
 function sydneyHarborBridge() {
+	$("#popup-header").text("Sydney Harbor Bridge")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -188,6 +192,7 @@ function sydneyHarborBridge() {
 	$(".whole-scr-modal").show()
 }
 function blueMountains() {
+	$("#popup-header").text("Blue Mountains National Park")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -219,6 +224,7 @@ function blueMountains() {
 	$(".whole-scr-modal").show()
 }
 function bondiBeach() {
+	$("#popup-header").text("Bondi Beach")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -244,6 +250,7 @@ function bondiBeach() {
 	$(".whole-scr-modal").show()
 }
 function rottnestIsland() {
+	$("#popup-header").text("Rottnest Island")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -269,6 +276,7 @@ function rottnestIsland() {
 	$(".whole-scr-modal").show()
 }
 function greatOceanRoad() {
+	$("#popup-header").text("Great Ocean Road")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -304,6 +312,7 @@ function greatOceanRoad() {
 	$(".whole-scr-modal").show()
 }
 function kangarooIsland() {
+	$("#popup-header").text("Kangaroo Island")
 	$("#page-1").empty().append(`
 	<h4>Facts</h4>
 	<ul>
@@ -334,6 +343,7 @@ function kangarooIsland() {
 	$(".whole-scr-modal").show()
 }
 function broome() {
+	$("#popup-header").text("Broome & Kimberley")
 	$("#page-1").empty().append(`
 	<h4>Sights</h4>
 	<ul>
